@@ -1,5 +1,6 @@
 body{
     font-family: 'Inter';
+    background-color: #202023;
 }
 a{
     cursor: pointer;
@@ -8,7 +9,7 @@ a{
 header{
     /* background-color: black; */
     padding-top: 55px;
-    background: url(./images/header-background.jpg) no-repeat;
+    background: url(./images/header-background.png) no-repeat;
     background-size: cover;
 }
 .dropdown-menu{
@@ -39,6 +40,67 @@ h1{
     border-color: #B47B48;
 }
 
+#menu{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.menu-title{
+    margin-bottom: 30px;
+}
+.menu-items-border{
+    border: 1px solid #FFF;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    max-width: 300px;
+    margin: 40px auto 0;
+}
+.menu-img{
+    max-width: 200px;
+    height: 150px;
+}
+.about-us{
+    background: url(./images/about-background.png) no-repeat;
+    padding: 50px 0;
+}
+.about-list-item{
+    flex-direction: column;
+    margin: 100px auto 0;
+}
+.about-img{
+    max-width: 218px;
+}
+.about-text{
+    font-size: 24px;
+    font-weight: 700;
+}
+.contacts{
+    padding: 50px 0;
+    background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0.00) 100%);
+}
+.contacts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-title{
+    margin-bottom: 50px;
+}
+.where-img{
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+footer{
+    padding: 50px 0;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 /**/
 .modal-title{
     margin-bottom: 40px;
