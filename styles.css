@@ -93,8 +93,29 @@ h1{
     max-width: 400px;
     margin-bottom: 50px;
 }
+.reviews{
+    padding: 50px 0;
+}
+.reviews-box{
+    margin: 30px auto;
+    padding: 15px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 251, 251);
+    border-radius: 15px;
+}
+.reviews-names{
+    margin: 15px 0;
+    font-weight: bold;
+}
 footer{
     padding: 50px 0;
+    background: #000;
 }
 .footer-list{
     display: flex;
